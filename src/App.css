@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Karla:ital,wght@1,300&display=swap');
 .weatherBg{
     background:url('background.jpg') ;
     height: 35vh;
+    background-size:cover;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     
 }
 .heading{
-    color: white;
+     color:rgb(252, 252, 0);
+     background-color: rgb(35 113 180);
     font-weight: bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .weatherResultBox{
     margin: auto;
+    margin-bottom: 20px ;
     width: 500px;
-    height: 300px;
+    height: 500px;
 }
 
 .weatherIcon{
