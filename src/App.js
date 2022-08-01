@@ -64,8 +64,8 @@ function App() {
       <div className="weatherBg">
         <h1 className='rounded shadow py-1 px-2  heading'>Weather App</h1>
 
-    <div className="d-grid col-4 mt-4">
-    <input type="text" className='form-control'  onChange={handleInput} />
+    <div className="d-grid  mt-4">
+    <input type="text" className='form-control' placeholder='Enter Place'  onChange={handleInput} />
     </div>
     <div className='d-flex justify-content-center mt-2'>
     <button className='btn my-1 btn-success mx-2 ' type='button' onClick={handleSearch} >Search</button>
